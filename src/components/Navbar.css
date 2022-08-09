@@ -1,0 +1,71 @@
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(3, 72, 97, 0.859);
+    padding: 14px 5%;
+}
+
+.nav-logo{
+    width: 20%;
+}
+
+
+.logo > span{
+    color: rgb(255, 8, 8);
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 75px;
+    align-items: center;
+    width: 80%;
+}
+
+.logo{
+    font-size: 24px;
+    color: white;
+    font-weight:400;
+}
+
+.btns{
+    color: rgba(255, 255, 255, 0.785);
+    text-decoration: none;
+    margin: 0 12px;
+    font-size:17px;
+    padding:4px;
+}
+
+.btns:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.login{
+    padding: 6px 10px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color:white;
+    color: rgba(0, 0, 0, 0.683);
+}
+
+.signup{
+    margin-left: 22px;
+    padding: 6px 8px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    background-color:white;
+    color: rgba(0, 0, 0, 0.683);
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.signup:hover{
+    cursor: pointer;
+}
